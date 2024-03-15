@@ -1,0 +1,372 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 12vh;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+    border-bottom: 0.5px solid black;
+}
+#nav>div{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid red; */
+}
+#nav>div>h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+}
+#nav>div>h1>a{
+    text-decoration: none;
+    color: black;
+}
+#nav>div>h1>a:hover{
+    color: rgb(142, 84, 84);
+}
+#nav>div>ol{
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#nav>div>ol>li{
+    list-style-type: none;
+}
+#nav>div>ol>li>a{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+#nav>div>ol>li>a:hover{
+    text-decoration: overline;
+    color: rgb(142, 84, 84);
+}
+
+/* sayabanna page */
+#sayabanna{
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#sayabanna>section{
+    height: 100%;
+    width: 65%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+#sayabanna>section>article{
+    height: 90%;
+    width: 50%;
+    /* border: 1px solid green; */
+}
+#sayabanna>section>article>img{
+    height: 350px;
+    width: 350px;
+    margin-top: 20%;
+    background-image: url(./assets/mypic2.png);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: inherit;
+    box-shadow: 15px 15px 20px rgb(133, 105, 105);
+}
+#sayabanna>section>article>div{
+    height: 50%;
+    /* border: 1px solid green; */
+    margin-top: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 50px;
+}
+#sayabanna>section>article>div>h3{
+    font-size: 25px;
+}
+#sayabanna>section>article>div>h1{
+    font-size: 40px;
+}
+#sayabanna>section>article>div>h2{
+    font-size: 30px;
+}
+#sayabanna>section>article>div>button{
+    height: 40px;
+    width: 130px;
+    margin-left: 8px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    font-weight: 400;
+}
+#sayabanna>section>article>div>button>a{
+    text-decoration: none;
+    color: black;
+}
+#sayabanna>section>article>div>button:hover{
+   transform: scale(1.1);
+   background-color: grey;
+}
+#sayabanna>section>article>div svg{
+    margin-top: 15px;
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+/* sayabanna page completed  */
+
+/* project page  */
+section>h4{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    box-shadow: 3px 2px 15px black;
+}
+#project{
+    height: 80vh;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#project>div{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px 10px grey;
+}
+#project>div>h1{
+    text-align: center;
+    padding-top: 5px;
+    background-color: grey;
+    height: 30px;
+    border-bottom: 1px solid grey;
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px rgb(84, 56, 56);
+}
+
+
+
+/* About page  */
+article>h4{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    box-shadow: 3px 2px 15px black;
+}
+#about{
+    height: 80vh;
+    width: 100%;
+    /* background-color: grey; */
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#about>article{
+    height:300px;
+    width: 25%;
+    /* border: 1px solid grey; */
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px 10px grey;
+}
+#about>article>h1{
+    text-align: center;
+    padding-top: 5px;
+    background-color: grey;
+    height: 30px;
+    border-bottom: 1px solid grey;
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px rgb(84, 56, 56);
+}
+#about>article>h2{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+#about>#objective{
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 300px;
+    width: 35%;
+    /* border: 1px solid green; */
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 20px;
+}
+#about>#certificates>h1{
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    margin-left: 20px;
+    padding-top: 5px;
+    background-color: grey;
+    height: 30px;
+    border-bottom: 1px solid grey;
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px rgb(84, 56, 56);
+}
+#about>#certificates>ul{
+    margin-top: 30px;
+    list-style-type: disc;
+    margin-left: 40px;
+    line-height: 30px;
+}
+#about>#certificates>ul>li>a{
+    text-decoration: none;
+}
+#about>#objective>h1{
+    text-align: center;
+    padding-top: 5px;
+    background-color: grey;
+    height: 30px;
+    border-bottom: 1px solid grey;
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px rgb(84, 56, 56);
+}
+#about>#objective>h2{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+/* About page completed  */
+
+/* Experience page  */
+section>h4{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    box-shadow: 3px 2px 15px black;
+}
+section>#experience{
+    height: 80vh;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+section>#experience>div{
+    height: 85%;
+    width: 25%;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px 10px grey;
+}
+section>#experience>div>h2{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+    background-color: grey;
+    height: 30px;
+    border-bottom: 1px solid grey;
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px rgb(84, 56, 56);
+}
+section>#experience>div>article{
+    margin-top: 15px;
+    height: 75px;
+    width: 100%;
+    /* border: 1px solid green; */
+    display: inline-flex;
+    align-items: center;
+}
+section>#experience>div>article>img{
+    height:70%;
+    width: 10%;
+    margin-left: 20px;  
+}
+section>#experience>div>article>h2{
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Experience page complete  */
+
+/* Contact page  */
+section>h4{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    box-shadow: 3px 2px 15px black;
+}
+section>#contact{
+    height: 80vh;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+section>#contact>div{
+    height: 90%;
+    width: 40%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px black;
+}
+section>#contact>div>img{
+    height: 100%;
+    width: 100%;
+    background-image: url("./assets/pic2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px black;
+}
+section>#contact>div>article{
+    margin-left: 20px;
+    margin-top: 25px;
+    height: 70px;
+    width: 90%;
+    border: 1px solid green;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 20px;
+}
+section>#contact>div>article>img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+section>#contact>div>article>a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+section>#contact>div>article>a:hover{
+    text-decoration: underline;
+    color: rgb(95, 10, 8);
+}
+/* Contact page completed  */
+
+#certificates>h4{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    box-shadow: 3px 2px 15px black;
+}
